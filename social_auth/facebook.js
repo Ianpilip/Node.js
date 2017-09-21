@@ -10,7 +10,6 @@ exports.facebook = function(router, passport) {
 	  })
 	);
 
-
 	router.get('/auth/facebook', function(req, res, next) {
 		passport.authenticate('facebook')(req, res, next);
 	});
