@@ -1,5 +1,5 @@
 # node.js
 
-Пример части роута при подключении аутентификации через facebook и google, вынесенные в качестве отдельных модулей в папку social_auth
+This is an example of route with facebook/google authentification, detached in a separate module into social_auth folder.
 
-В отдельную папку аутентификация была вынесена с целью быстрого и удобного переноса данной логики в другой проект, либо обращении к этим модулям из любого места текущего проекта, избегая дублирования кода
+The purpose of  authentification being detached in a separate folder is to make the logics integration into other projects much more easier and faster. At the same time it allows to access this modules  from any place on the current project and prevents code dublication.
